@@ -141,7 +141,7 @@ class _SelectionListState extends State<SelectionList> {
                                 padding: const EdgeInsets.only(right: 20.0),
                                 child: Icon(Icons.check, color: Colors.green),
                               ),
-                              onTap: (){print('asdf');},
+                              onTap: ()=>_sendDataBack(context,widget.initialSelection!),
                             ),
                           ),
                         ),
